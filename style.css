@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 62, 5%;
+  color: #1f343e;
+}
