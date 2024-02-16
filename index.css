@@ -9,11 +9,17 @@
 }
 
 :root {
-  font-size: 62, 5%;
+  font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
+}
+
+/* CONTAINER */
+container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
@@ -34,8 +40,6 @@ navbar {
   flex-grow: 0;
   align-items: center;
   justify-content: center;
-  width: 4.8rem;
-  height: 4.8rem;
 }
 
 .burger-menu__line {
@@ -50,8 +54,52 @@ navbar {
 /* MAIN */
 main {
   background-color: #f8cc5d;
+  padding: 3.2rem 1.6rem;
 }
 
-h1 {
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 3.2rem 1.6rem;
+  background-color: #f8f4f9;
+}
+.section-1 h1 {
   font-family: "Caveat Brush", cursive;
+  color: #1f343e;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  font-weight: 300;
+}
+.section-1 > p {
+  font-family: "Noto Sans", sans-serif;
+  color: #1f343e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+.section-1 form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.section-1 form input,
+.section-1 button {
+  width: 31rem;
+  height: 5.6rem;
+  padding: 1.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+}
+.section-1 input {
+  color: #6d7a80;
+  font-weight: 400;
+}
+.section-1 button {
+  background: #4eb3e3;
+  color: #fff;
+  font-weight: 600;
+}
+.section-1 .form-text-bottom {
+  color: #6d7a80;
 }/*# sourceMappingURL=index.css.map */
