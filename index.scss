@@ -119,6 +119,12 @@ main {
     font-weight: 600;
   }
 
+  form input[type="email"] {
+    // Outros estilos do input
+    background: url('./assets//mail.svg') no-repeat 1rem center;
+    padding-left: 4rem; 
+  }
+
   .form-text-bottom {
     color: $second-text-color;
   }

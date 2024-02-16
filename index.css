@@ -169,6 +169,10 @@ main {
   color: #fff;
   font-weight: 600;
 }
+.section-1 form input[type=email] {
+  background: url("./assets//mail.svg") no-repeat 1rem center;
+  padding-left: 4rem;
+}
 .section-1 .form-text-bottom {
   color: #6d7a80;
 }
