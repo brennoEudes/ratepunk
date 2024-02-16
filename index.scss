@@ -8,11 +8,17 @@
 }
 
 :root {
-  font-size: 62, 5%;
+  font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
+}
+
+/* CONTAINER */
+container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
@@ -53,8 +59,36 @@ navbar {
 /* MAIN */
 main {
   background-color: $primary-bg-color;
+  padding: 3.2rem 1.6rem;
 }
 
-h1 {
-  font-family: $second-font-family;
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 3.2rem 1.6rem;
+
+  background-color: $fourth-bg-color;
+
+  h1 {
+    font-family: $second-font-family;
+    color: $primary-text-color;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    font-weight: 300;
+  }
+
+  > p {
+    font-family: $primary-font-family;
+    color: $primary-text-color;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+  }
+
+  form input,
+  button {
+    width: 16rem;
+    height: 2.4rem;
+  }
 }
