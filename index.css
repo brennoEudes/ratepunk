@@ -10,7 +10,6 @@
 
 :root {
   font-size: 62, 5%;
-  color: #1f343e;
 }
 
 body {
@@ -23,8 +22,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem 1.6rem;
-  background: #ffffff;
-  border: 1px solid #1f343e;
+  background: #fff;
+  border: 1px solid #6d7a80;
   opacity: 1;
 }
 

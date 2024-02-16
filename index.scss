@@ -1,4 +1,5 @@
 @import "./src/variables/fonts/fonts";
+@import "./src/variables/colors";
 
 * {
   margin: 0;
@@ -8,7 +9,6 @@
 
 :root {
   font-size: 62, 5%;
-  color: #1f343e;
 }
 
 body {
@@ -22,8 +22,8 @@ header {
   justify-content: space-between;
   padding: 1.2rem 1.6rem;
 
-  background: #ffffff;
-  border: 1px solid #1f343e;
+  background: $white-color;
+  border: 1px solid $second-text-color;
   opacity: 1;
 }
 
