@@ -171,7 +171,7 @@ main {
   border-radius: 0.8rem;
   top: 0;
   right: 0;
-  transform: translate(50%, -20%);
+  transform: translate(40%, -20%);
 }
 .section-3 .apps-stores .apps-texts {
   display: flex;
