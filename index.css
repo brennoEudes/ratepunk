@@ -221,22 +221,22 @@ footer .footer-data-2 {
 }
 footer .footer-data-2 h3 {
   font-weight: 700;
-  margin-bottom: 0.7rem;
+  margin-bottom: 2.4rem;
 }
-footer .footer-data-2 .contact-data {
+footer .footer-data-3 .contact-data {
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
-footer .footer-data-2 .contact-data > img {
+footer .footer-data-3 .contact-data > img {
   width: 1.6rem;
 }
-footer .footer-data-2 .social-group {
+footer .footer-data-4 .social-group {
   display: flex;
   align-items: center;
   gap: 0.8rem;
 }
-footer .footer-data-2 #social-icons {
+footer .footer-data-4 #social-icons {
   background: #4eb3e3;
   width: 3.2rem;
   height: 3.2rem;
@@ -246,7 +246,7 @@ footer .footer-data-2 #social-icons {
   justify-content: center;
   align-items: center;
 }
-footer .footer-data-3 {
+footer .footer-data-5 {
   color: #6d7a80;
   text-align: center;
 }/*# sourceMappingURL=index.css.map */

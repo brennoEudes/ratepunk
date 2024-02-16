@@ -179,9 +179,11 @@ footer {
 
     h3 {
       font-weight: 700;
-      margin-bottom: 0.7rem;
+      margin-bottom: 2.4rem;
     }
-
+  }
+  
+  .footer-data-3 {
     .contact-data {
       display: flex;
       align-items: center;
@@ -191,7 +193,9 @@ footer {
         width: 1.6rem;
       }
     }
+  }
 
+  .footer-data-4 {
     .social-group {
       display: flex;
       align-items: center;
@@ -211,7 +215,7 @@ footer {
     }
   }
 
-  .footer-data-3 {
+  .footer-data-5 {
     color: $second-text-color;
     text-align: center;
   }
