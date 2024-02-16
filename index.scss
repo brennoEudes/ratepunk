@@ -1,5 +1,6 @@
 @import "./src/variables/fonts/fonts";
 @import "./src/variables/colors";
+@import "./src/components/steps";
 
 * {
   margin: 0;
@@ -97,7 +98,6 @@ main {
 
     font-family: $primary-font-family;
     font-size: 1.6rem;
-    
   }
 
   input {
@@ -114,5 +114,12 @@ main {
   .form-text-bottom {
     color: $second-text-color;
   }
+}
 
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  text-align: center;
+  margin: 4.8rem 0;
 }
