@@ -1,4 +1,45 @@
 @import "../variables/fonts/fonts";
 @import "../variables/colors";
 
+.apps-stores {
+    display: grid;
+    grid-template-columns: 20% 80%;
 
+    padding: 1.6rem 2.4rem;
+    border: 1px solid $primary-text-color;
+    border-radius: 16px;
+
+    align-items: center;
+
+    font-family: $primary-font-family;
+    color: $white-color;
+
+    #main-img {
+      position: relative;
+
+      > img:first-child {
+        width: 100%;
+      }
+
+      #coin-img {
+        position: absolute;
+        width: 2.8rem;
+        border-radius: 0.8rem;
+
+        top: 0;
+        right: 0;
+        transform: translate(40%, -20%);
+      }
+    }
+
+    .apps-texts {
+      display: flex;
+      flex-direction: column;
+
+      padding-left: 2.8rem;
+
+      strong {
+        font-size: 1.8rem;
+      }
+    }
+  }
