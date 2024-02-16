@@ -6,6 +6,33 @@
   font-family: "Gadugi Bold", serif;
   src: url("./gadugi-bold.ttf") format("truetype");
 }
+.steps > img {
+  margin-bottom: 3.2rem;
+}
+.steps > p {
+  font-size: 1.6rem;
+  color: #4eb3e3;
+  font-weight: 800;
+  font-family: "Gadugi Bold", serif;
+  margin-bottom: 1.6rem;
+}
+.steps > h2 {
+  font-family: "Caveat Brush", cursive;
+  font-size: 3.2rem;
+  color: "Noto Sans", sans-serif;
+  font-weight: 200;
+  margin-bottom: 1.6rem;
+}
+.steps p:nth-of-type(2) {
+  font-family: "Noto Sans", sans-serif;
+  color: #1f343e;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gadugi Bold", serif;
+  src: url("./gadugi-bold.ttf") format("truetype");
+}
 .apps-stores {
   display: grid;
   grid-template-columns: 20% 80%;
