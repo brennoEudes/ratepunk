@@ -102,11 +102,15 @@ main {
 
     font-family: $primary-font-family;
     font-size: 1.6rem;
+
+    border: 1px solid $primary-text-color;
+    border-radius: .8rem;
   }
 
   input {
     color: $second-text-color;
     font-weight: 400;
+
   }
 
   button {

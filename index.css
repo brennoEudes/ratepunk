@@ -157,6 +157,8 @@ main {
   padding: 1.8rem;
   font-family: "Noto Sans", sans-serif;
   font-size: 1.6rem;
+  border: 1px solid #1f343e;
+  border-radius: 0.8rem;
 }
 .section-1 input {
   color: #6d7a80;
