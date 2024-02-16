@@ -1,3 +1,5 @@
+@import "./src/variables/fonts/fonts";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,6 @@
 }
 
 :root {
-  font-family: "Noto Sans", sans-serif;
   font-size: 62, 5%;
   color: #1f343e;
 }
@@ -47,4 +48,8 @@ navbar {
   background-color: #bdc1c3;
   border-radius: 6.4rem;
   border: 1px solid;
+}
+
+h1 {
+  font-family: $second-font-family;
 }
