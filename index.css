@@ -20,7 +20,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem 1.6rem;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  background: #ffffff;
   border: 1px solid #1f343e;
   opacity: 1;
 }
