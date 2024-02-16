@@ -1,0 +1,32 @@
+@import "../variables/fonts/fonts";
+@import "../variables/colors";
+
+.steps {
+    > img {
+        margin-bottom: 3.2rem;
+    }
+
+    > p {
+        font-size: 1.6rem;
+        color: $second-bg-color;
+        font-weight: 800;
+        font-family: $fourth-font-family;
+
+        margin-bottom: 1.6rem;
+    }
+
+    > h2 {
+        font-family: $second-font-family;
+        font-size: 3.2rem;
+        color: $primary-font-family;
+        font-weight: 200;
+
+        margin-bottom: 1.6rem;
+    }
+
+    p:nth-of-type(2) {
+        font-family: $primary-font-family;
+        color: $primary-text-color;
+        font-weight: 400;
+    }
+}
