@@ -47,6 +47,11 @@ navbar {
   border: 1px solid;
 }
 
+/* MAIN */
+main {
+  background-color: #f8cc5d;
+}
+
 h1 {
   font-family: "Caveat Brush", cursive;
 }/*# sourceMappingURL=index.css.map */
