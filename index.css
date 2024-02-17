@@ -119,7 +119,7 @@ navbar {
 /* MAIN */
 main {
   background-color: #f8cc5d;
-  padding: max(3.2rem, min(5vw, 6.4rem)) max(1.6rem, min(10vw, 40rem));
+  padding: max(3.2rem, min(5vw, 6.4rem)) max(1.6rem, min(5vw, 40rem));
   width: 100%;
 }
 
@@ -208,7 +208,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 1.2rem;
 }
 .section-3 .apps-reviews img {
   max-width: 35%;
@@ -320,5 +319,6 @@ footer .footer-data-5 {
   }
   .apps-reviews {
     font-size: 2rem;
+    margin: 0;
   }
 }/*# sourceMappingURL=index.css.map */
