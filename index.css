@@ -187,6 +187,12 @@ main {
   text-align: center;
   margin: 4.8rem 0;
 }
+.section-2 .steps p {
+  font-size: max(1.6rem, min(5vw, 2rem));
+}
+.section-2 .steps h2 {
+  font-size: 3.2rem;
+}
 
 /* SECTION-3 */
 .section-3 {

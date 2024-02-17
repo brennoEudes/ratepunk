@@ -136,6 +136,14 @@ main {
   gap: 4.8rem;
   text-align: center;
   margin: 4.8rem 0;
+
+  .steps p {
+    font-size: max(1.6rem, min(5vw, 2rem));
+  }
+
+  .steps h2 {
+    font-size: 3.2rem;
+  }
 }
 
 /* SECTION-3 */
