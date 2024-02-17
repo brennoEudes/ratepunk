@@ -58,7 +58,7 @@ navbar {
 /* MAIN */
 main {
   background-color: $primary-bg-color;
-  padding: 3.2rem 1.6rem;
+  padding: max(3.2rem, min(5vw, 6.4rem)) max(1.6rem, min(3vw, 40rem));
   width: 100%;
 }
 
@@ -76,7 +76,7 @@ main {
   h1 {
     font-family: $second-font-family;
     color: $primary-text-color;
-    font-size: 3.2rem;
+    font-size: max(3.2rem, min(5vw, 4.8rem));
     line-height: 4.8rem;
     font-weight: 300;
   }
@@ -84,7 +84,7 @@ main {
   > p {
     font-family: $primary-font-family;
     color: $primary-text-color;
-    font-size: 1.6rem;
+    font-size: max(1.6rem, min(5vw, 2rem));
     font-weight: 400;
     line-height: 2.4rem;
   }
@@ -105,13 +105,12 @@ main {
     font-size: 1.6rem;
 
     border: 1px solid $primary-text-color;
-    border-radius: .8rem;
+    border-radius: 0.8rem;
   }
 
   input {
     color: $second-text-color;
     font-weight: 400;
-
   }
 
   button {
@@ -121,8 +120,8 @@ main {
   }
 
   form input[type="email"] {
-    background: url('./assets//mail.svg') no-repeat 1rem center;
-    padding-left: 4rem; 
+    background: url("./assets//mail.svg") no-repeat 1rem center;
+    padding-left: 4rem;
   }
 
   .form-text-bottom {
@@ -239,13 +238,10 @@ footer {
 
 /* MEDIA QUERIES */
 @media (min-width: 1024px) {
-
   main {
     display: flex;
     gap: 13.6rem;
     justify-content: center;
-    padding: 6.4rem 40rem;
-   
 
     .section-1 {
       max-width: 52rem;
@@ -261,7 +257,8 @@ footer {
       display: grid;
       grid-template-columns: 30% 70%;
       grid-template-rows: 1fr 1fr 1fr;
-      gap: 5.6rem;
+      row-gap: 1.6rem;
+      column-gap: 5.4rem;
     }
 
     .section-2 .steps img {
@@ -273,9 +270,9 @@ footer {
 
     .section-2 .steps p,
     .section-2 .steps h2 {
-      align-self: center; 
+      align-self: center;
       margin-bottom: 0;
-      justify-self: flex-start; 
+      text-align: left;
     }
   }
 }
