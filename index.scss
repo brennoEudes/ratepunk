@@ -139,6 +139,7 @@ main {
 
   .steps p {
     font-size: max(1.6rem, min(5vw, 2rem));
+    line-height: max(2.4rem, min(5vw, 3.2rem));
   }
 
   .steps h2 {
@@ -258,28 +259,28 @@ footer {
     .section-2 {
       margin: 0;
       gap: 6.4rem;
-    }
 
-    .section-2 .steps {
-      display: grid;
-      grid-template-columns: 30% 70%;
-      grid-template-rows: 1fr 1fr 1fr;
-      row-gap: 1.6rem;
-      column-gap: 5.4rem;
-    }
+      .steps {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 1.6rem;
+        column-gap: 5.6rem;
+      }
 
-    .section-2 .steps img {
-      grid-row: span 3;
-      justify-self: center;
-      align-self: center;
-      margin-bottom: 0;
-    }
+      .steps img {
+        grid-row: span 3;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 0;
+      }
 
-    .section-2 .steps p,
-    .section-2 .steps h2 {
-      align-self: center;
-      margin-bottom: 0;
-      text-align: left;
+      .steps p,
+      .steps h2 {
+        align-self: center;
+        margin-bottom: 0;
+        text-align: left;
+      }
     }
   }
 }

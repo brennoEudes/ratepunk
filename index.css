@@ -189,6 +189,7 @@ main {
 }
 .section-2 .steps p {
   font-size: max(1.6rem, min(5vw, 2rem));
+  line-height: max(2.4rem, min(5vw, 3.2rem));
 }
 .section-2 .steps h2 {
   font-size: 3.2rem;
@@ -286,11 +287,11 @@ footer .footer-data-5 {
   }
   main .section-2 .steps {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 25% 75%;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 1.6rem;
-    -moz-column-gap: 5.4rem;
-         column-gap: 5.4rem;
+    -moz-column-gap: 5.6rem;
+         column-gap: 5.6rem;
   }
   main .section-2 .steps img {
     grid-row: span 3;
