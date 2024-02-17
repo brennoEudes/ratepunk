@@ -294,6 +294,7 @@ footer .footer-data-5 {
     row-gap: max(0.8rem, min(5vw, 1.6rem));
     -moz-column-gap: max(1.2rem, min(5vw, 5.6rem));
          column-gap: max(1.2rem, min(5vw, 5.6rem));
+    max-width: 56rem;
   }
   main .section-2 .steps img {
     grid-row: span 3;
