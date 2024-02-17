@@ -308,4 +308,17 @@ footer .footer-data-5 {
     margin-bottom: 0;
     text-align: left;
   }
+  .section-3 {
+    flex-direction: row;
+    justify-content: center;
+    padding-left: max(3.2rem, min(10vw, 40rem));
+    padding-right: max(3.2rem, min(10vw, 40rem));
+  }
+  .apps-stores,
+  .apps-reviews {
+    width: 30%;
+  }
+  .apps-reviews {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=index.css.map */
