@@ -119,7 +119,7 @@ navbar {
 /* MAIN */
 main {
   background-color: #f8cc5d;
-  padding: max(3.2rem, min(5vw, 6.4rem)) max(1.6rem, min(5vw, 40rem));
+  padding: max(3.2rem, min(5vw, 6.4rem)) max(1.6rem, min(10vw, 40rem));
   width: 100%;
 }
 
@@ -177,13 +177,14 @@ main {
 }
 .section-1 .form-text-bottom {
   color: #6d7a80;
+  align-content: end;
 }
 
 /* SECTION-2 */
 .section-2 {
   display: flex;
   flex-direction: column;
-  gap: 4.8rem;
+  gap: max(4.8rem, min(5vw, 6.4rem));
   text-align: center;
   margin: 4.8rem 0;
 }
@@ -275,23 +276,24 @@ footer .footer-data-5 {
 @media (min-width: 1024px) {
   main {
     display: flex;
-    gap: 13.6rem;
+    gap: 12.8rem;
     justify-content: center;
   }
   main .section-1 {
     max-width: 54rem;
   }
   main .section-2 {
+    justify-content: center;
     margin: 0;
-    gap: 6.4rem;
+    padding: 0 2rem;
+    align-items: center;
   }
   main .section-2 .steps {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 1.6rem;
-    -moz-column-gap: 5.6rem;
-         column-gap: 5.6rem;
+    row-gap: max(0.8rem, min(5vw, 1.6rem));
+    -moz-column-gap: max(1.2rem, min(5vw, 5.6rem));
+         column-gap: max(1.2rem, min(5vw, 5.6rem));
   }
   main .section-2 .steps img {
     grid-row: span 3;

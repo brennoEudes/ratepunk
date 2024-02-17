@@ -58,7 +58,7 @@ navbar {
 /* MAIN */
 main {
   background-color: $primary-bg-color;
-  padding: max(3.2rem, min(5vw, 6.4rem)) max(1.6rem, min(5vw, 40rem));
+  padding: max(3.2rem, min(5vw, 6.4rem)) max(1.6rem, min(10vw, 40rem));
   width: 100%;
 }
 
@@ -126,6 +126,7 @@ main {
 
   .form-text-bottom {
     color: $second-text-color;
+    align-content: end;
   }
 }
 
@@ -133,7 +134,7 @@ main {
 .section-2 {
   display: flex;
   flex-direction: column;
-  gap: 4.8rem;
+  gap: max(4.8rem, min(5vw, 6.4rem));
   text-align: center;
   margin: 4.8rem 0;
 
@@ -249,7 +250,7 @@ footer {
 @media (min-width: 1024px) {
   main {
     display: flex;
-    gap: 13.6rem;
+    gap: 12.8rem;
     justify-content: center;
 
     .section-1 {
@@ -257,15 +258,19 @@ footer {
     }
 
     .section-2 {
+      justify-content: center;
       margin: 0;
-      gap: 6.4rem;
+
+      padding: 0 2rem;
+
+      align-items: center;
 
       .steps {
         display: grid;
         grid-template-columns: 25% 75%;
-        grid-template-rows: 1fr 1fr 1fr;
-        row-gap: 1.6rem;
-        column-gap: 5.6rem;
+        row-gap: max(0.8rem, min(5vw, 1.6rem));
+        column-gap: max(1.2rem, min(5vw, 5.6rem));
+
       }
 
       .steps img {
