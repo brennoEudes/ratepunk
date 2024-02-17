@@ -120,6 +120,7 @@ navbar {
 main {
   background-color: #f8cc5d;
   padding: 3.2rem 1.6rem;
+  width: 100%;
 }
 
 /* SECTION-1 */
@@ -261,4 +262,40 @@ footer .footer-data-4 #social-icons {
 footer .footer-data-5 {
   color: #6d7a80;
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    gap: 13.6rem;
+    justify-content: center;
+    padding: 6.4rem 40rem;
+  }
+  main .section-1 {
+    max-width: 52rem;
+    padding: 6.4rem;
+  }
+  main .section-2 {
+    margin: 0;
+    gap: 6.4rem;
+  }
+  main .section-2 .steps {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5.6rem;
+  }
+  main .section-2 .steps img {
+    grid-row: span 3;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 0;
+  }
+  main .section-2 .steps p,
+  main .section-2 .steps h2 {
+    align-self: center;
+    margin-bottom: 0;
+    justify-self: flex-start;
+  }
 }/*# sourceMappingURL=index.css.map */
