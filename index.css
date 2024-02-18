@@ -321,4 +321,34 @@ footer .footer-data-5 {
     font-size: 2rem;
     margin-left: 1.6rem;
   }
+  footer {
+    padding: max(4.8rem, min(5vw, 6.4rem)) max(3.2rem, min(14vw, 40rem));
+    display: grid;
+    grid-template-areas: "A B C" "A B D" "E B D";
+  }
+  footer .footer-data-1 {
+    grid-area: A;
+  }
+  footer .footer-data-1 > img {
+    max-width: 12.5rem;
+  }
+  footer .footer-data-1 p {
+    max-width: 54rem;
+  }
+  footer .footer-data-2 {
+    grid-area: B;
+  }
+  footer .footer-data-3 {
+    grid-area: C;
+  }
+  footer .footer-data-4 {
+    grid-area: D;
+  }
+  footer .footer-data-5 {
+    grid-area: E;
+    text-align: start;
+  }
+  footer h3 {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=index.css.map */
