@@ -28,7 +28,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.2rem 1.6rem;
+  padding: max(1.2rem, min(5vw, 2.4rem)) max(1.6rem, min(5vw, 40rem));
+
 
   background: $white-color;
   border: 1px solid $second-text-color;
@@ -43,6 +44,10 @@ navbar {
 
   align-items: center;
   justify-content: center;
+}
+
+.nav-bar-2 {
+  display: none;
 }
 
 .burger-menu__line {
@@ -248,6 +253,36 @@ footer {
 
 /* MEDIA QUERIES */
 @media (min-width: 1024px) {
+  header {
+    justify-content: center;
+    gap: clamp(44rem, 2vw, 64rem);
+
+  }
+
+  navbar {
+    display: none;
+  }
+
+  .nav-bar-2 {
+    display: flex;
+    align-items: center;
+    gap: 5.6rem;
+
+    a {
+      text-decoration: none;
+      font-family: $primary-font-family;
+      font-size: 2rem;
+      color: $primary-text-color;
+
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        color: $second-bg-color;
+      }
+    }
+  }
+
   main {
     display: flex;
     gap: 12.8rem;

@@ -92,7 +92,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.2rem 1.6rem;
+  padding: max(1.2rem, min(5vw, 2.4rem)) max(1.6rem, min(5vw, 40rem));
   background: #fff;
   border: 1px solid #6d7a80;
   opacity: 1;
@@ -105,6 +105,10 @@ navbar {
   flex-grow: 0;
   align-items: center;
   justify-content: center;
+}
+
+.nav-bar-2 {
+  display: none;
 }
 
 .burger-menu__line {
@@ -273,6 +277,29 @@ footer .footer-data-5 {
 
 /* MEDIA QUERIES */
 @media (min-width: 1024px) {
+  header {
+    justify-content: center;
+    gap: clamp(44rem, 2vw, 64rem);
+  }
+  navbar {
+    display: none;
+  }
+  .nav-bar-2 {
+    display: flex;
+    align-items: center;
+    gap: 5.6rem;
+  }
+  .nav-bar-2 a {
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 2rem;
+    color: #1f343e;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .nav-bar-2 a:hover {
+    color: #4eb3e3;
+  }
   main {
     display: flex;
     gap: 12.8rem;
