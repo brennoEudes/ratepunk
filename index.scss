@@ -74,6 +74,12 @@ navbar {
     font-family: $primary-font-family;
     font-size: 1.6rem;
     color: $primary-text-color;
+
+    transition: 0.2s;
+
+      &:hover {
+        color: $second-bg-color;
+      }
   }
 }
 

@@ -130,6 +130,10 @@ navbar #close-btn {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.6rem;
   color: #1f343e;
+  transition: 0.2s;
+}
+.panel-control a:hover {
+  color: #4eb3e3;
 }
 
 .panel-control.visible {
