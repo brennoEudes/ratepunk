@@ -13,6 +13,7 @@
     />
 
     <link rel="stylesheet" href="./index.css" />
+    <script src="./src/script.js" type="module" defer></script>
   </head>
   <body>
     <container>
@@ -31,21 +32,26 @@
 
         <!-- panel control -->
         <div class="panel-control" id="panel-control">
-          <ul>
-            <a
-              href="https://chromewebstore.google.com/detail/ratepunk-get-more-out-of/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk"
-              >Chrome Extension</a
-            >
-            <a href="#">Price Comparison</a>
-            <a href="#">Blog</a>
-          </ul>
+          <a
+            href="https://chromewebstore.google.com/detail/ratepunk-get-more-out-of/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk"
+            >Chrome Extension</a
+          >
+          <a href="#">Price Comparison</a>
+          <a href="#">Blog</a>
         </div>
         <!-- end panel control -->
-        
+
         <navbar id="navbar">
-          <div class="burger-menu__line"></div>
-          <div class="burger-menu__line"></div>
-          <div class="burger-menu__line"></div>
+          <img
+            id="burguer-menu"
+            src="./assets/navbar-icon.png"
+            alt="Burguer menu"
+          />
+          <img
+            id="close-btn"
+            src="./assets/close-icon.png"
+            alt="Close button"
+          />
         </navbar>
       </header>
 

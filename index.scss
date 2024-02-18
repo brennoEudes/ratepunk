@@ -30,20 +30,22 @@ header {
   justify-content: space-between;
   padding: max(1.2rem, min(5vw, 2.4rem)) max(1.6rem, min(5vw, 40rem));
 
-
   background: $white-color;
   border: 1px solid $second-text-color;
   opacity: 1;
+
+  position: relative;
 }
 
 navbar {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  flex-grow: 0;
+  img {
+    max-width: 2.8rem;
+    height: auto;
+  }
 
-  align-items: center;
-  justify-content: center;
+  #close-btn {
+    display: none;
+  }
 }
 
 .nav-bar-2 {
@@ -52,6 +54,30 @@ navbar {
 
 .panel-control {
   display: none;
+  position: absolute;
+
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  background-color: $white-color;
+  border: 1px solid $primary-text-color;
+  border-top: none;
+  padding: 2rem;
+
+  a {
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+    font-family: $primary-font-family;
+    font-size: 1.6rem;
+    color: $primary-text-color;
+  }
+}
+
+.panel-control.visible {
+  display: block;
 }
 
 .burger-menu__line {
@@ -260,7 +286,6 @@ footer {
   header {
     justify-content: center;
     gap: clamp(44rem, 2vw, 64rem);
-
   }
 
   navbar {
