@@ -276,6 +276,15 @@ footer {
     > h3 {
       margin-bottom: 0.9rem;
     }
+
+    p {
+        transition: 0.2s;
+        cursor: pointer;
+  
+        &:hover {
+          color: $second-bg-color;
+        }
+    }
   }
 
   .footer-data-3 {
@@ -286,6 +295,15 @@ footer {
 
       > img {
         width: 1.6rem;
+      }
+
+      p {
+        transition: 0.2s;
+        cursor: pointer;
+  
+        &:hover {
+          color: $second-bg-color;
+        }
       }
     }
   }
