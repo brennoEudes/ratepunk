@@ -77,9 +77,9 @@ navbar {
 
     transition: 0.2s;
 
-      &:hover {
-        color: $second-bg-color;
-      }
+    &:hover {
+      color: $second-bg-color;
+    }
   }
 }
 
@@ -150,6 +150,30 @@ main {
     border-radius: 0.8rem;
   }
 
+  #correct-email {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #correct-email,
+  #invalid-email {
+    display: none;
+
+    img {
+      width: 3rem;
+    }
+
+    font-family: $primary-font-family;
+    font-size: 1.6rem;
+    color: $primary-text-color;
+    font-weight: 700;
+  }
+
+  #invalid-email {
+    color: #ed6f82;
+  }
+
   input {
     color: $second-text-color;
     font-weight: 400;
@@ -169,6 +193,10 @@ main {
   .form-text-bottom {
     color: $second-text-color;
     align-content: end;
+  }
+
+  #referral-form {
+    display: none;
   }
 }
 

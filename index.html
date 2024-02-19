@@ -33,7 +33,8 @@
         <!-- panel control -->
         <div class="panel-control" id="panel-control">
           <a
-            href="https://chromewebstore.google.com/detail/ratepunk-get-more-out-of/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk" target="_blank"
+            href="https://chromewebstore.google.com/detail/ratepunk-get-more-out-of/gdaioanblcnghddimngklkhgcbomfdck?utm_source=ratepunk"
+            target="_blank"
             >Chrome Extension</a
           >
           <a href="#">Price Comparison</a>
@@ -64,7 +65,13 @@
             cash-out at 20 coins.
           </p>
 
-          <form action="">
+          <div id="correct-email">
+            <img src="./assets/correct-email.png" alt="ok icon" />
+            <p>Your email is confirmed!</p>
+          </div>
+
+          <p id="invalid-email">Invalid email or empty!</p>
+          <form id="email-form">
             <label for="user-email"></label>
             <input
               type="email"
@@ -73,7 +80,18 @@
               placeholder="Enter your email address"
             />
 
-            <button>Get Referral Link</button>
+            <button type="submit">Get Referral Link</button>
+          </form>
+
+          <form id="referral-form">
+            <label for="referral-link"></label>
+            <input
+              type="url"
+              name="referral-link"
+              id="referral-link"
+              placeholder="https://ratepunk.com/referral"
+            />
+            <button id="copy-btn">Copy</button>
           </form>
 
           <p class="form-text-bottom">Limits on max rewards apply.</p>

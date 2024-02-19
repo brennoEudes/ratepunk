@@ -195,6 +195,26 @@ main {
   border: 1px solid #1f343e;
   border-radius: 0.8rem;
 }
+.section-1 #correct-email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section-1 #correct-email,
+.section-1 #invalid-email {
+  display: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #1f343e;
+  font-weight: 700;
+}
+.section-1 #correct-email img,
+.section-1 #invalid-email img {
+  width: 3rem;
+}
+.section-1 #invalid-email {
+  color: #ed6f82;
+}
 .section-1 input {
   color: #6d7a80;
   font-weight: 400;
@@ -211,6 +231,9 @@ main {
 .section-1 .form-text-bottom {
   color: #6d7a80;
   align-content: end;
+}
+.section-1 #referral-form {
+  display: none;
 }
 
 /* SECTION-2 */
