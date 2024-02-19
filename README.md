@@ -1,4 +1,6 @@
-
+<p align="center">
+<img src="./.github/preview.png" alt="Project-demonstration" width=100%/>
+</p>
 
 ## The Ratepunk 
 Unlock unprecedented savings with RatePunk – your gateway to up to 85% off hotels and Airbnbs! 
