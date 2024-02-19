@@ -46,6 +46,8 @@ document
       const encodedEmail = btoa(email);
       const referralLinkInput = document.getElementById("referral-link");
       referralLinkInput.value = `https://ratepunk.com/referral?email=${encodedEmail}`;
+
+      saveEmailToJSONBin(email);
     }
   });
 
@@ -57,3 +59,26 @@ document.getElementById("copy-btn").addEventListener("click", function () {
   const emailForm = document.getElementById("email-form");
   emailForm.reset();
 });
+
+function saveEmailToJSONBin(email) {
+    const API_URL = 'https://api.jsonbin.io/v3/b/65d2b463dc74654018a6aa44';
+    const API_KEY = '$2a$10$MQIlf4ANAoy2NKiPlasej.u0zjRB0Yx/AImSslyGRIr8xNf5hcwOO';
+  
+    fetch(API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Master-Key': API_KEY
+      },
+      body: JSON.stringify({
+        email: email
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Email saved successfully:', data);
+    })
+    .catch(error => {
+      console.error('Error saving email:', error);
+    });
+  }
