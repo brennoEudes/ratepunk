@@ -387,8 +387,7 @@ footer {
         grid-template-columns: 25% 75%;
         row-gap: max(0.8rem, min(5vw, 1.6rem));
         column-gap: max(1.2rem, min(5vw, 5.6rem));
-
-        max-width: 40rem;
+        max-width: 35rem;
       }
 
       .steps img {
@@ -404,6 +403,32 @@ footer {
         margin-bottom: 0;
         text-align: left;
       }
+    }
+
+    #second-step {
+      display: grid;
+      grid-template-columns: 75% 25%;
+      grid-template-areas: 
+      "A B"
+      "C B"
+      "D B";
+
+      p {
+        grid-area: A;
+      }
+
+      img {
+        grid-area: B;
+      }
+
+      h2 {
+        grid-area: C;
+      }
+
+      #second-step-text {
+        grid-area: D;
+      }
+
     }
   }
 

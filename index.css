@@ -386,7 +386,7 @@ footer .footer-data-5 {
     row-gap: max(0.8rem, min(5vw, 1.6rem));
     -moz-column-gap: max(1.2rem, min(5vw, 5.6rem));
          column-gap: max(1.2rem, min(5vw, 5.6rem));
-    max-width: 40rem;
+    max-width: 35rem;
   }
   main .section-2 .steps img {
     grid-row: span 3;
@@ -399,6 +399,23 @@ footer .footer-data-5 {
     align-self: center;
     margin-bottom: 0;
     text-align: left;
+  }
+  main #second-step {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: "A B" "C B" "D B";
+  }
+  main #second-step p {
+    grid-area: A;
+  }
+  main #second-step img {
+    grid-area: B;
+  }
+  main #second-step h2 {
+    grid-area: C;
+  }
+  main #second-step #second-step-text {
+    grid-area: D;
   }
   .section-3 {
     flex-direction: row;
